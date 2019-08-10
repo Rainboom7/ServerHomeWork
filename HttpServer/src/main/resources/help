@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><title>Help</title></head>
+<body><h1>Info.</h1>
+<h3>to get list of all products:</h3>
+<p>
+localhost:3605/products/info
+</p>
+<p>
+<h3>to add product as manager(POST request example):</h3>
+localhost:3605/products/set?name=*productname*&company=*companyname*&quantity=*productquantity*
+(* symbol is not needed in  request)
+</p>
+</body>
+<p>login/passowrd: manager: admin/admin guest: user/user</p>
+<p>POST request was tested via POSTMAN</p>
+<p>Ne sovse ponya kak prikrepitj OQSFilter tolko dlya POST requesta poetomy sdelal cherez boolean </p>
+
+</html>
